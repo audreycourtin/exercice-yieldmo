@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+}
+.header{
+	height: 50px;
+    width:1349px;/*Taille de la colonne centrée moins le padding*/
+    background-color:white;/*Couleur de fond*/
+    margin: auto; /*centrer la colonne*/
+    padding:25px;/*margin interne*/
+    margin-top: -10px;
+    margin-left: -20px
+}
+.header img {
+	margin-top: 10px;
+}
+.menu li{
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+	margin-top: -5px;
+	margin-right: 125px;
+	font-family: "Century Gothic";
+	font-size:120%;
+
+}
+.menu {
+	float: right;
+}
+.barnav {
+	float: right;
+	margin-right: -160px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*corps*/
+
+body {
+	background-color: #ffd800;
+	width:1349px; 
+	height:688px;
+}
+
+.titre {
+	font-family: Arial; color: white;
+	font-size: 50px;
+	text-align: center;
+}
+.sous-titre {
+	font-family: Arial; color: #252525;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -25px;
+}
+.sous-titre2 {
+	font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+}
+.sous-titre2 a {
+	color: white;
+}
+/*footer*/
+.footer {
+    background-color: #2b2b2a;
+    margin: auto;
+    padding:60px;
+    height: 300px;
+    width:1349px;
+    font-family: Arial;
+    margin-top: 60px;
+}
+.colonne-4 {
+	width: 25%;
+	float: left;
+	color: white;
+	font-family: Arial;
+
+}
